@@ -1,0 +1,6 @@
+public class my-test-app {
+@Test
+public void c_test() {
+Assert.fail();
+}
+}

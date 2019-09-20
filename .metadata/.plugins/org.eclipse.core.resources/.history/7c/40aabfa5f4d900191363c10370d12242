@@ -1,0 +1,7 @@
+ <suite name="com.mycompany.app">
+ <test name="testngTest">
+ <classes>
+ <class name="com.mycompany,app.TestNGClass" />
+ </classes>
+ </test>
+</suite>
