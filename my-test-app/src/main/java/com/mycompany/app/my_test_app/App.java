@@ -13,9 +13,10 @@ public class App
  public static  void main(String[] args) {
 
 
- System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Chrome_driver\\chromedriver.exe");
+ //System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Chrome_driver\\chromedriver.exe");
+  System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
  ChromeOptions chromeOptions = new ChromeOptions();
- // chromeOptions.addArguments("--headless");
+ chromeOptions.addArguments("--headless");
  WebDriver driver = new ChromeDriver(chromeOptions);
 
  System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium WebDriver");
